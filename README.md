@@ -1,26 +1,49 @@
-# CIS_5_Assignment_5_Winter_2026
-Building with Structures
+# CIS 5 – Assignment 5: Building with Structures
 
-Goal: Fill out the menu -> the functions at the bottom to complete the menu!
+## Description
+This program demonstrates the use of structures, functions, loops, and user input in C++.  
+The scenario simulates a professor managing a class by organizing student information and displaying different results through a menu system.
 
-Scenario: You are a professor that is in charge of a class and you want to find a way to organize / manage the class to make life easier on you. 
+Each student has an ID, name, and grade, which are stored using a `Student` structure.
 
-Tasks:
+---
 
-1. Fill out the ``highestGrade()`` function
-2. Fill out the ``lowestGrade()`` function
-3. Fill out the ``averageGrade()`` function
-4. Fill out the ``printStudentId()`` function
-5. Fill out the ``printStudentName()`` function
+## Features
+- Uses a `Student` structure to store student data
+- Stores multiple students in an array
+- Displays a menu for user interaction
+- Calculates:
+  - Highest grade
+  - Lowest grade
+  - Average grade
+- Prints:
+  - Student IDs
+  - Student names
+- Uses functions to keep the code organized and readable
 
-In main():
-- Create 5 different students from the ``Student`` struct
-- Go through the menu and make sure when you select all the options, the appropriate responses are displayed. 
+---
 
-Deliverable:
-- main.cpp
-- 1–2 min video explaining logic + demo run
-- Upload to GitHub (fork this repo first)
+## How to Run
+1. Compile the program:
+   ```bash
+   g++ main.cpp -o main
+Run the program:
 
-Reminder: 
-I am not only grading for completion but for understanding as well, if you are unable to explain what your code does, even if you have a working solution, I won't be able to give you full points / assumed you just used AI to comeplete the assignment for you. 
+./main
+Follow the on-screen menu instructions by entering a number and pressing Enter.
+
+Example Menu Output
+Menu
+1. Highest Grade
+2. Lowest Grade
+3. Average Grade
+4. Print Student IDs
+5. Print Student Names
+6. Exit
+Video Demo
+A short video explaining the program logic and demonstrating a run of the program is available here:
+
+Video Link:Video link
+https://youtu.be/BOvMpeGLdXM
+Filename
+video1418230763.mp4
